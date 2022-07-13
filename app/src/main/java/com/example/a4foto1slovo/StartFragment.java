@@ -34,6 +34,8 @@ public class StartFragment extends Fragment {
                 requireActivity().getSupportFragmentManager().beginTransaction()
                         .replace(R.id.main_container,levelFragment)
                         .commit();
+
+
             }
         });
 
